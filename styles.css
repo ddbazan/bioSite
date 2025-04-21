@@ -1,3 +1,4 @@
+/* Base Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -27,11 +28,47 @@ footer {
     color: white;
 }
 
+/* Heading styles */
 h1, h2, h3 {
     margin-bottom: 10px;
     color: rgb(138, 100, 214); /* Medium purple */
 }
 
+/* Darker heading styles */
 h2, h3 {
     color: rgb(92, 58, 146); /* Dark purple */
+}
+
+/* Image styling */
+img {
+    max-width: 50%; /* Make all images 50% smaller */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align images with text */
+}
+
+/* Flex container for sections */
+.flex-container {
+    display: flex; /* Enable flexbox for side-by-side layout */
+    justify-content: space-between; /* Space between images */
+    margin-bottom: 20px; /* Space below the image rows */
+}
+
+/* Image styling for top images */
+.top-image {
+    width: 50%; /* Now 50% of the width of its parent container */
+    margin-right: 5%; /* Space between the two images */
+}
+
+.top-image:last-child {
+    margin-right: 0; /* Remove margin from the last image */
+}
+
+/* Image styling for bottom images */
+.bottom-image {
+    width: 50%; /* Now 50% of the width of its parent container */
+    margin-right: 5%; /* Space between the two images */
+}
+
+.bottom-image:last-child {
+    margin-right: 0; /* Remove margin from the last image */
 }

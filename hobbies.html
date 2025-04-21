@@ -8,7 +8,10 @@
 </head>
 <body>
     <header>
-        <h1>My Hobbies</h1>
+        <h1>
+            <img src="path/to/hobbies-image.jpg" alt="Hobbies" style="width: 100px; vertical-align: middle; margin-right: 10px;">
+            My Hobbies
+        </h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -18,14 +21,34 @@
     </header>
     <main>
         <section>
-            <h2>Personal Growth</h2>
-            <p>I achieve personal growth by surrounding myself with motivated individuals.</p>
-            <h2>Bucket List</h2>
-            <p>My top bucket list item is to create a comic book for Comiket.</p>
+            <div class="flex-container">
+                <div class="text-content">
+                    <h2>Personal Growth</h2>
+                    <p>I achieve personal growth by surrounding myself with motivated individuals. I spend a lot of my time networking with people that have the same hobbies as I do. From drawing to hiking, I participate in activities that allow me to grow and help others grow as well.</p>
+                </div>
+                <img src="images/Casas_Bazan_hike.jpg" alt="Personal Growth" class="large-image">
+            </div>
+
+            <div class="flex-container">
+                <div class="text-content">
+                    <h2>Bucket List</h2>
+                    <p>My top bucket list item is to create a comic book for Comiket.</p>
+                </div>
+                <img src="images/Casas_scared_funny.jpg" alt="Looking Ahead" class="large-image">
+            </div>
+        </section>
+
+        <section>
+            <h2>More of My Interests</h2>
+            <div style="display: flex; justify-content: space-around; margin-top: 20px;">
+                <img src="images/Casas_Japan.jpg" alt="Japan Trip" class="small-image">
+                <img src="images/Casas_convention.jpg" alt="Convention Setup" class="small-image">
+                <img src="images/Casas_hiking.jpg" alt="Hiking" class="small-image">
+            </div>
         </section>
     </main>
     <footer>
         <p>Guillermo Casas</p>
     </footer>
 </body>
-</html>
+</html>l>
